@@ -51,7 +51,6 @@ font-family: 'Noto Serif', serif;*/
 
 
 
-
 /*------- welcome section -------*/
 .welcome-section {
   text-align: center;
@@ -99,6 +98,61 @@ font-family: 'Noto Serif', serif;*/
   text-decoration: none;
   color: #fff;
 }
+
+
+/*------ features section --------*/
+.features-section {
+  margin: 20px auto;
+  text-align: center;
+  background: url();
+}
+.features-section h2 {
+  width: 40%;
+  margin: 0 auto 30px auto;
+  border-bottom: 3px solid #333;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  color: #333;
+  font-size: 40px;
+}
+.features-section p {
+  margin: 0 auto 40px auto;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  color: #333;
+  font-size: 20px;
+}
+.grid-container {
+  margin: 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  padding: 10px 30px;
+  
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  font-size: 30px;
+  font-family: 'Vollkorn', serif;
+  background-color: ;
+  padding: 10px 20px;
+  border-bottom: 2px solid #333;
+}
+.feature h4 {
+  margin: 20px;
+  font-size: 40px;
+}
+.fas {
+  font-size: 60px;
+}
+
+
+
+
 
 /*------- rooms section -------*/
 .rooms-section {
@@ -158,7 +212,7 @@ font-family: 'Noto Serif', serif;*/
 .room-title {
   font-family: 'Vollkorn', serif;
   font-size: 20px;
-  padding: 20px 5px 10px 5px;
+  padding: 15px 5px 10px 5px;
 }
 
 
