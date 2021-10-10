@@ -48,6 +48,23 @@ font-family: 'Noto Serif', serif;*/
 .nav-links a:hover {
   color: blue;
 }
+@media screen and (max-width: 480px) {
+  .navbar {
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px auto;
+  }
+  .logo a {
+    font-size: 20px;
+  }
+  .nav-links {
+    margin-right: 10px;
+}
+  .nav-links a {
+    font-size: 13px;
+  }
+}
 
 
 
@@ -98,6 +115,34 @@ font-family: 'Noto Serif', serif;*/
   text-decoration: none;
   color: #fff;
 }
+@media screen and (max-width: 480px) {
+  .welcome-section {
+      height: 60vh;
+  }
+  .welcome-section h1 {
+      margin: 50px auto 10px auto;
+      font-size: 30px;
+      font-family: 'Cormorant Garamond', serif;
+      color: #fff;
+      text-shadow: 2px 2px 3px #000;
+  }
+  .welcome-section p {
+      margin: 10px auto 30px auto;
+      font-size: 20px;
+      width: 45%;
+  }
+  .btn {
+      width: 150px;
+      height: 32px;
+      font-size: 14px;
+      background: #fff;    
+  }
+  .btn a {
+    color: #000;
+  }
+}
+
+
 
 
 /*------ features section --------*/
