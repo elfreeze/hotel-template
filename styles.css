@@ -147,13 +147,13 @@ font-family: 'Noto Serif', serif;*/
 
 /*------ features section --------*/
 .features-section {
-  margin: 20px auto;
+  margin: 0 auto;
   text-align: center;
-  background: url();
+  background: rgb(241, 241, 239);
 }
 .features-section h2 {
   width: 40%;
-  margin: 0 auto 30px auto;
+  margin: 10px auto 30px auto;
   border-bottom: 3px solid #333;
   font-family: 'Vollkorn', serif;
   font-weight: bold;
@@ -183,7 +183,7 @@ font-family: 'Noto Serif', serif;*/
   height: 400px;
   font-size: 30px;
   font-family: 'Vollkorn', serif;
-  background-color: ;
+  background-color: #fff;
   padding: 10px 20px;
   border-bottom: 2px solid #333;
 }
@@ -210,14 +210,11 @@ font-family: 'Noto Serif', serif;*/
     padding: 10px 20px;
   }
   .feature {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 300px;
     font-size: 30px;
-    font-family: 'Vollkorn', serif;
-    background-color: ;
+    background-color: #fff;
     padding: 10px 20px;
     border-bottom: 2px solid #333;
   }
