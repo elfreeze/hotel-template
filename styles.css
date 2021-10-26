@@ -76,7 +76,7 @@ font-family: 'Noto Serif', serif;*/
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background: url(https://images.pexels.com/photos/6284232/pexels-photo-6284232.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
     background-size: cover;
@@ -117,7 +117,7 @@ font-family: 'Noto Serif', serif;*/
 }
 @media screen and (max-width: 480px) {
   .welcome-section {
-      height: 60vh;
+      height: 70vh;
   }
   .welcome-section h1 {
       margin: 50px auto 10px auto;
@@ -170,7 +170,7 @@ font-family: 'Noto Serif', serif;*/
 .grid-container {
   margin: 10px 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 30px;
   padding: 10px 30px;
   
@@ -180,29 +180,33 @@ font-family: 'Noto Serif', serif;*/
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 400px;
-  font-size: 30px;
+  height: 300px;
   font-family: 'Vollkorn', serif;
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-bottom: 2px solid #333;
 }
 .feature h4 {
-  margin: 20px;
-  font-size: 35px;
+  margin: 0 auto;
+  font-size: 25px;
 }
-.fas {
-  font-size: 60px;
+.feature p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.feature i {
+  margin-top: 40px;
+  font-size: 50px;
 }
 @media screen and (max-width: 480px) {
   .features-section h2 {
     width: 50%;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto 10px auto;
   }
   .features-section p {
     margin: 0 auto 30px auto;
-    font-size: 15px;
+    font-size: 13px;
   }
   .grid-container {
     margin: 10px 20px;
@@ -210,21 +214,19 @@ font-family: 'Noto Serif', serif;*/
     padding: 10px 20px;
   }
   .feature {
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    font-size: 30px;
-    background-color: #fff;
-    padding: 10px 20px;
-    border-bottom: 2px solid #333;
-  }
+    height: 200px;
+ }
   .feature h4 {
-    margin: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .feature p {
+    font-size: 13px;
+  }
+  .feature i {
+    margin-top: 50px;
     font-size: 30px;
   }
-  .fas {
-    font-size: 40px;
-  }  
 }
 
 
@@ -255,7 +257,7 @@ font-family: 'Noto Serif', serif;*/
 }
 .rooms-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 30px;
   height: auto;
   width: 100%;
@@ -266,21 +268,17 @@ font-family: 'Noto Serif', serif;*/
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
   border-bottom: 3px solid #333;
-  height: 400px;
+  height: 300px;
   color: #333;
   transition: transform 0.3s ease-in-out;
 }
 
 
 .room:hover {
-  color: orange;
-  transform: translateX(3px);
-}
-
-.room a:hover {
-  color: orange;
+  color: #000;
   transform: translateY(5px);
 }
+
 .room-image {
   height: 80%;
   width: 100%;
@@ -289,8 +287,8 @@ font-family: 'Noto Serif', serif;*/
 
 .room-title {
   font-family: 'Vollkorn', serif;
-  font-size: 20px;
-  padding: 15px 5px 10px 5px;
+  font-size: 18px;
+  padding: 10px 5px 10px 5px;
 }
 
 .btn-show-all i {
