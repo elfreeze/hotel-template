@@ -46,7 +46,7 @@ font-family: 'Noto Serif', serif;*/
   font-weight: bold;
 }
 .nav-links a:hover {
-  color: #060;
+  color: #000;
 }
 @media screen and (max-width: 480px) {
   .navbar {
@@ -113,6 +113,11 @@ font-family: 'Noto Serif', serif;*/
 }
 .btn a {
   text-decoration: none;
+  color: #fff;
+}
+.btn:hover {
+  transform: translateY(3px);
+  background: transparent;
   color: #fff;
 }
 @media screen and (max-width: 480px) {
