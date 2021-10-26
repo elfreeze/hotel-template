@@ -148,20 +148,21 @@ font-family: 'Noto Serif', serif;*/
 /*------ features section --------*/
 .features-section {
   margin: 0 auto;
+  padding-top: 30px;
   text-align: center;
   background: rgb(241, 241, 239);
 }
 .features-section h2 {
   width: 40%;
-  margin: 10px auto 30px auto;
+  margin: 0px auto 20px auto;
   border-bottom: 3px solid #333;
   font-family: 'Vollkorn', serif;
   font-weight: bold;
   color: #333;
-  font-size: 40px;
+  font-size: 30px;
 }
 .features-section p {
-  margin: 0 auto 40px auto;
+  margin: 0 auto 20px auto;
   font-family: 'Vollkorn', serif;
   font-weight: bold;
   color: #333;
@@ -175,6 +176,7 @@ font-family: 'Noto Serif', serif;*/
   padding: 10px 30px;
 }
 .feature {
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,6 +199,7 @@ font-family: 'Noto Serif', serif;*/
 .feature p {
   font-size: 18px;
   font-weight: lighter;
+  padding: 10px;
 }
 .feature i {
   margin-top: 40px;
