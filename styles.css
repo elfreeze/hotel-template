@@ -335,7 +335,7 @@ font-family: 'Noto Serif', serif;*/
 /*------- footer section styling --------*/
 
 footer {
-  padding: 100px 10px 0 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -346,7 +346,11 @@ footer {
   font-family: 'Cormorant Garamond', serif;
   background: #333;
 }
-
+.footer-nav {
+  margin: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+}
 .copyright {
   text-align: center;
 }
