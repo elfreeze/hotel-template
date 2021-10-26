@@ -347,7 +347,7 @@ font-family: 'Noto Serif', serif;*/
 /*------- footer section styling --------*/
 
 footer {
-  padding: 20px;
+  padding: 20px 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
