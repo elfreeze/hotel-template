@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-
-/*font-family: 'Cormorant Garamond', serif;
-font-family: 'Noto Serif', serif;
-rgb(214, 118, 40)*/
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;*/
 
 :root {
   --primary: rgb(19, 17, 16);
@@ -20,7 +18,7 @@ rgb(214, 118, 40)*/
   color: #fff
 }
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 h1 {
 
@@ -83,6 +81,7 @@ a {
 
 .nav-link{
   font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: ;
   color: #fff;
 }
@@ -114,7 +113,7 @@ a {
   font-size: 35px;
   font-weight: bold;
   color: #fff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Josefin Sans', sans-serif;
   width: 40%;
   height: 100%;
   display: flex;
@@ -206,7 +205,7 @@ a {
 }
 .text-container h1 {
   font-size: 55px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -337,14 +336,12 @@ a {
   width: 40%;
   margin: 0px auto 20px auto;
   border-bottom: 3px solid #333;
-  font-family: 'Vollkorn', serif;
   font-weight: bold;
   font-size: 30px;
   color: var(--btn);
 }
 .features-section p {
   margin: 0 auto 20px auto;
-  font-family: 'Vollkorn', serif;
   font-weight: bold;
   color: #000;
   font-size: 20px;
@@ -363,7 +360,6 @@ a {
   align-items: center;
   justify-content: space-between;
   height: 300px;
-  font-family: 'Vollkorn', serif;
   background:;
   color: #000;
   border-bottom: 2px solid #333;
@@ -448,7 +444,6 @@ a {
 .rooms-section {
   text-align: center;
   padding: 30px 20px;
-  font-family: 'Josefin Sans', sans-serif;
   margin-top: 100px;
 }
 
@@ -550,7 +545,6 @@ footer {
   height: 200px;
   width: auto;
   color: #fff;
-  font-family: 'Cormorant Garamond', serif;
   background: var(--primary);
 }
 .footer-nav {
