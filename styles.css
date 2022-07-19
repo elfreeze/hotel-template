@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-/*font-family: 'Josefin Sans', sans-serif;
-font-family: 'Josefin Slab', serif;*/
+
 
 :root {
   --primary: rgb(19, 17, 16);
   --btn: rgb(40, 214, 162);
   --white: #fff;
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 /*----- global attributes  -----*/
@@ -15,10 +15,10 @@ font-family: 'Josefin Slab', serif;*/
   padding: 0;
   text-decoration: none;
 }html {
-  color: #fff
+  color: #fff;
 }
 body {
-  font-family: 'Josefin Slab', serif;
+  
 }
 h1 {
 
@@ -81,8 +81,6 @@ a {
 
 .nav-link{
   font-size: 13px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: ;
   color: #fff;
 }
 .nav-item::after {
@@ -113,7 +111,6 @@ a {
   font-size: 25px;
   font-weight: bold;
   color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
   width: 40%;
   height: 100%;
   display: flex;
@@ -453,7 +450,6 @@ a {
   margin: 0 auto 40px auto;
   border-bottom: 3px solid #333;
   border: 50%;
-  font-family: 'Vollkorn', serif;
   font-weight: bold;
   font-size: 30px;
   
@@ -489,7 +485,6 @@ a {
 }
 
 .room-title {
-  font-family: 'Vollkorn', serif;
   font-size: 18px;
   padding: 10px 5px 10px 5px;
 }
