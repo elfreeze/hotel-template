@@ -395,8 +395,9 @@ a {
 .layer h3 {
   width: 100%;
   font-weight: 500;
-  color: #fff;
+  color: var(--btn);
   font-size: 26px;
+  font-weight: bolder;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
