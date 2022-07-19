@@ -50,7 +50,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 80px;
+  height: 50px;
   background: var(--primary);
   z-index: 1;
 }
@@ -110,7 +110,7 @@ a {
 }
 
 .nav-logo {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: #fff;
   font-family: 'Josefin Sans', sans-serif;
@@ -263,7 +263,7 @@ a {
 @media screen and (max-width: 768px) {
   .welcome-section {
     height: 600px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .text-container {
     justify-content: center;
